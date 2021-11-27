@@ -1,6 +1,10 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 # BlenderBrainAtlas
 ![preview](static/img/preview.JPG "preview")
+
+BlenderBrainAtlas is a script to create 3D objects from a MRI segmentation file (usually preprocessed thanks to [Freesurfer](https://surfer.nmr.mgh.harvard.edu/)).
+It generates a single 3D object (outer shell) for each brain's region of interest contained in the MRI file.
+
 ## Installation
 
 In order to use `script.py` within blender, you need to install the [nibabel](https://nipy.org/nibabel/) library.
